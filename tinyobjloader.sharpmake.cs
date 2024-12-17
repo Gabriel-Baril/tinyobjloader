@@ -4,7 +4,7 @@ using Sharpmake; // Contains the entire Sharpmake object library.
 [Generate]
 public class TinyObjLoaderProject : BaseCppProject
 {
-    public GlmProject()
+    public TinyObjLoaderProject()
     {
         Name = "tinyobjloader";
         AddTargets(TargetUtil.DefaultTarget);
