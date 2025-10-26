@@ -2,11 +2,11 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class TinyObjLoaderProject : BaseCppProject
+public class HdnCodeExternalTinyObjLoaderProject : BaseCppProject
 {
-    public TinyObjLoaderProject()
+    public HdnCodeExternalTinyObjLoaderProject()
     {
-        Name = "tinyobjloader";
+        Name = "hdn.code.external.tinyobjloader";
         AddTargets(TargetUtil.DefaultTarget);
     }
 
