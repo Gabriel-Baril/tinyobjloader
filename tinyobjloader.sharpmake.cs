@@ -6,7 +6,7 @@ public class HdnCodeExternalTinyObjLoaderProject : BaseCppProject
 {
     public HdnCodeExternalTinyObjLoaderProject()
     {
-        Name = "hdn.code.external.tinyobjloader";
+        Name = "dm.code.external.tinyobjloader";
         AddTargets(TargetUtil.DefaultTarget);
     }
 
